@@ -35,7 +35,7 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Registry = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.SuspendLayout()
@@ -47,7 +47,7 @@ Partial Class Form1
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(529, 690)
+        Me.Panel1.Size = New System.Drawing.Size(527, 690)
         Me.Panel1.TabIndex = 0
         '
         'Label1
@@ -55,7 +55,7 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Lucida Bright", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label1.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Label1.Location = New System.Drawing.Point(709, 34)
+        Me.Label1.Location = New System.Drawing.Point(682, 19)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(173, 41)
         Me.Label1.TabIndex = 1
@@ -65,7 +65,7 @@ Partial Class Form1
         '
         Me.Panel2.BackgroundImage = Global.DevPlatforms.My.Resources.Resources.vecteezy_colourful_google_logo_on_white_background_10353285
         Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel2.Location = New System.Drawing.Point(709, 78)
+        Me.Panel2.Location = New System.Drawing.Point(691, 82)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(49, 52)
         Me.Panel2.TabIndex = 2
@@ -74,7 +74,7 @@ Partial Class Form1
         '
         Me.Panel3.BackgroundImage = Global.DevPlatforms.My.Resources.Resources.faceook_logo_generated
         Me.Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel3.Location = New System.Drawing.Point(764, 78)
+        Me.Panel3.Location = New System.Drawing.Point(746, 82)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(49, 52)
         Me.Panel3.TabIndex = 3
@@ -83,7 +83,7 @@ Partial Class Form1
         '
         Me.Panel4.BackgroundImage = Global.DevPlatforms.My.Resources.Resources.twitter_logo_black_generated
         Me.Panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel4.Location = New System.Drawing.Point(819, 78)
+        Me.Panel4.Location = New System.Drawing.Point(801, 82)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(49, 52)
         Me.Panel4.TabIndex = 4
@@ -91,7 +91,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(699, 155)
+        Me.Label2.Location = New System.Drawing.Point(679, 155)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(176, 25)
         Me.Label2.TabIndex = 5
@@ -101,16 +101,16 @@ Partial Class Form1
         '
         Me.Panel5.BackgroundImage = Global.DevPlatforms.My.Resources.Resources.Line_2
         Me.Panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel5.Location = New System.Drawing.Point(876, 155)
+        Me.Panel5.Location = New System.Drawing.Point(852, 155)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(148, 25)
+        Me.Panel5.Size = New System.Drawing.Size(136, 25)
         Me.Panel5.TabIndex = 5
         '
         'Panel6
         '
         Me.Panel6.BackgroundImage = Global.DevPlatforms.My.Resources.Resources.Line_2
         Me.Panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel6.Location = New System.Drawing.Point(554, 155)
+        Me.Panel6.Location = New System.Drawing.Point(533, 155)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(148, 25)
         Me.Panel6.TabIndex = 6
@@ -120,7 +120,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Bodoni MT", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(575, 214)
+        Me.Label3.Location = New System.Drawing.Point(554, 221)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(61, 21)
         Me.Label3.TabIndex = 7
@@ -129,7 +129,7 @@ Partial Class Form1
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.Location = New System.Drawing.Point(575, 251)
+        Me.TextBox1.Location = New System.Drawing.Point(554, 258)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(361, 37)
         Me.TextBox1.TabIndex = 8
@@ -139,7 +139,7 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Bodoni MT", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(575, 350)
+        Me.Label4.Location = New System.Drawing.Point(554, 337)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(93, 21)
         Me.Label4.TabIndex = 9
@@ -148,39 +148,42 @@ Partial Class Form1
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox2.Location = New System.Drawing.Point(575, 391)
+        Me.TextBox2.Location = New System.Drawing.Point(554, 370)
         Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox2.Size = New System.Drawing.Size(361, 37)
         Me.TextBox2.TabIndex = 10
+        Me.TextBox2.UseSystemPasswordChar = True
         '
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(785, 440)
+        Me.LinkLabel1.Location = New System.Drawing.Point(780, 420)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(156, 25)
         Me.LinkLabel1.TabIndex = 11
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Forgot password?"
         '
-        'Button1
+        'Registry
         '
-        Me.Button1.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(661, 494)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(193, 56)
-        Me.Button1.TabIndex = 12
-        Me.Button1.Text = "Sign in"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.Registry.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Registry.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Registry.FlatAppearance.BorderSize = 2
+        Me.Registry.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Registry.ForeColor = System.Drawing.Color.White
+        Me.Registry.Location = New System.Drawing.Point(638, 472)
+        Me.Registry.Name = "Registry"
+        Me.Registry.Size = New System.Drawing.Size(193, 56)
+        Me.Registry.TabIndex = 12
+        Me.Registry.Text = "Sign in"
+        Me.Registry.UseVisualStyleBackColor = False
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(637, 600)
+        Me.Label5.Location = New System.Drawing.Point(613, 585)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(171, 21)
         Me.Label5.TabIndex = 13
@@ -189,7 +192,7 @@ Partial Class Form1
         'LinkLabel2
         '
         Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Location = New System.Drawing.Point(801, 596)
+        Me.LinkLabel2.Location = New System.Drawing.Point(777, 581)
         Me.LinkLabel2.Name = "LinkLabel2"
         Me.LinkLabel2.Size = New System.Drawing.Size(75, 25)
         Me.LinkLabel2.TabIndex = 14
@@ -202,16 +205,16 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1045, 690)
+        Me.ClientSize = New System.Drawing.Size(989, 690)
+        Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.LinkLabel2)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Registry)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Panel4)
@@ -246,4 +249,5 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents LinkLabel2 As LinkLabel
+    Friend WithEvents Registry As Button
 End Class
